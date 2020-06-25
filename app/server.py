@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/home/Breast%20Cancer%20Classification?preview=breastcancer_classifier.h5'
-export_file_name = 'breastcancer_classifier.h5'
+export_file_url = 'https://drive.google.com/file/d/1aDRX-nRUlr-9AbML7o7DPcFqBQF3vivl/view?usp=sharing'
+export_file_name = 'export.pkl'
 
 classes = ['idc', 'no_idc']
 path = Path(__file__).parent
